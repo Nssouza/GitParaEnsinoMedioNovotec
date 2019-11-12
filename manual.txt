@@ -7,11 +7,13 @@ primeiro,criamos no github um repositorio com nome GitParaEnsinoMedioNovotec
 -seguinte,fizemos um git clone do repositorio para nossa PC 
 
 -criamos um arquivo chamado manual.txt
-
+ comfiguramos o nome do usuario e o email do usuario
 -fizemos o commit e finalmente um push na master 
 
 mostramos os codigos seguidos:
 git clone (url do repositorio)
+git config --global user.name "leticia silveira de souza"(unica vez no git)
+git config--global user.email "lehsouza511@gmail.com"(uma vez no git )
 git status 
 git add.
 git commit -m "Digitamos um texto que possa dscrever o que a gente fez"
