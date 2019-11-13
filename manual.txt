@@ -19,3 +19,5 @@ git add.
 git commit -m "Digitamos um texto que possa dscrever o que a gente fez"
 
 git push (precisaremos depois deste passo passar nosso usuario e senha)
+
+guyjgt ijy  yfyubhjtg8
