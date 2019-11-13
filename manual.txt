@@ -13,11 +13,28 @@ primeiro,criamos no github um repositorio com nome GitParaEnsinoMedioNovotec
 mostramos os codigos seguidos:
 git clone (url do repositorio)
 git config --global user.name "leticia silveira de souza"(unica vez no git)
-git config--global user.email "lehsouza511@gmail.com"(uma vez no git )
+git config --global user.email "lehsouza511@gmail.com"(uma vez no git )
 git status 
 git add.
 git commit -m "Digitamos um texto que possa dscrever o que a gente fez"
 
 git push (precisaremos depois deste passo passar nosso usuario e senha)
+ 
+segundo passo do git 
+criaçao de branchs (galhos de uma arvore)
 
-guyjgt ijy  yfyubhjtg8
+o uso de branchs e para criar copias que se encontra na master (ou copias de outras branchs)
+
+a continuaçao segue os comandos para criar uma branchs no pc e no github
+
+git status (só para ver sem tem arquivos para comitar)
+(se tiver arquivos nao adicionados, fezer o passo número1)
+
+git checkout -b "nome da branch"
+(fazendo istos agente muda automanticamente  da master para a nova branch)
+
+fazendo  todos comandos anteriores  estaremos em uma copia da master
+agora podemos editar os arquivos desta copia e depois fazer o passo numero 1
+cuidado quando vamos fazer o push devemos de saber, que no github não existe essa branch
+então fazendo git push, apaarecer uma recomendaçao, que devemos implementar
+
